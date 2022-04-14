@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #006994;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+  
+.modal-body {padding: 2px 16px;}
+  
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+svg path{
+    fill:rgb(109, 13, 13);
+    stroke: #eee;
+    stroke-width: 0.25;
+}
+.Canada,.United,#BR,.China,.Australia,#UA,.France,#ES,#PT, #DE, #PL, #AT, .Italy, 
+#CZ, #RO, .Greece,#DZ, #LY ,#EG, #SD, #TD ,#NE ,#CD, .Angola, #NA, #TZ, #ET, #KE,#SA, #IR, #PK, #AF,#IN,.Indonesia,.Norway ,#SE, #FI,#SY, #IQ,#GL,
+#PE, #CO, #BO, .Chile, #PY, .Argentina ,#UY,.Japan, #MN, #TH
+{
+    fill:#004f2a;
+    stroke: #eee;
+    stroke-width: 0.25;
+}
+.Canada:hover,.United:hover,#BR:hover,.China:hover,.Australia:hover,#UA:hover,.France:hover,#ES:hover,#PT:hover, #DE:hover, #PL:hover, #AT:hover, .Italy:hover, 
+#CZ:hover, #RO:hover, .Greece:hover,#DZ:hover, #LY:hover,#EG:hover, #SD:hover, #TD:hover ,#NE:hover {
+    fill: #07b966;
+    transition: 0.6s;
+}
