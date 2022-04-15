@@ -10,7 +10,7 @@ let span = document.getElementsByClassName("close")[0];
 
 
 //NORTH AMERICA
-document.querySelectorAll(".Canada,.United").forEach(item => {
+document.querySelectorAll(".United, .Canada, #MX, #GT ,#BZ ,#HN, #SV, #NI ,#CR ,#CU, #JM, #HT, #DO, .Puerto ").forEach(item => {
     item.addEventListener('click',function(){
         NaModal.style.display = "block";
     });
@@ -22,7 +22,7 @@ document.querySelectorAll(".Canada,.United").forEach(item => {
 });
 
 //SOUTH AMERICA
-document.querySelectorAll("#BR").forEach(item => {
+document.querySelectorAll("#PA, #CO, #EC, #VE, #GY ,#SR, #GF, #BR, #PE, #BO ,.Chile, #PY, .Argentina, #UY ,.Falkland").forEach(item => {
     item.addEventListener('click',function(){
         SaModal.style.display = "block";
     });
@@ -33,7 +33,7 @@ document.querySelectorAll("#BR").forEach(item => {
     });
 });
 //ASIA
-document.querySelectorAll(".China").forEach(item => {
+document.querySelectorAll("#IN ,#TM, #UZ ,#KZ, #KG ,#TJ, #PK ,#IN, .China, #NP, #BT ,#LK, #BD ,#MM ,#TH ,.Malaysia, .Indonesia, .Philippines, #VN ,#TW, .Japan, #MN, .Azerbaijan").forEach(item => {
     item.addEventListener('click',function(){
         AsianModal.style.display = "block";
     });
@@ -44,7 +44,7 @@ document.querySelectorAll(".China").forEach(item => {
     });
 });
 //OCEANIA
-document.querySelectorAll(".Australia").forEach(item => {
+document.querySelectorAll(".New, .Australia ,.Papua").forEach(item => {
     item.addEventListener('click',function(){
         OceModal.style.display = "block";
     });
@@ -56,7 +56,7 @@ document.querySelectorAll(".Australia").forEach(item => {
 });
 
 //EUROPE
-document.querySelectorAll("#UA,.France,#ES,#PT, #DE, #PL ,#AT, .Italy ,#CZ, #RO, .Greece,.Norway, #SE, #FI,.Turkey").forEach(item => {
+document.querySelectorAll("#PT, #ES ,.France, #BE ,#NL ,#DE, .Denmark ,#CH, .Italy,#SI, #AT ,#CZ ,#PL,#LT, #LV ,#EE, #BY, #UA, #MD, #RO, #HU, #AT").forEach(item => {
     item.addEventListener('click',function(){
         EuModal.style.display = "block";
     });
@@ -68,7 +68,7 @@ document.querySelectorAll("#UA,.France,#ES,#PT, #DE, #PL ,#AT, .Italy ,#CZ, #RO,
 });
 
 //VIKINGS
-document.querySelectorAll("#GL").forEach(item => {
+document.querySelectorAll("#GL, #IS , .Norway , #SE , #IE , .Kingdom , #FI ").forEach(item => {
     item.addEventListener('click',function(){
         VikModal.style.display = "block";
     });   
@@ -80,7 +80,7 @@ document.querySelectorAll("#GL").forEach(item => {
 });
 
 //AFRICA
-document.querySelectorAll("#DZ, #LY, #EG ,#SD ,#TD ,#NE, #CD, .Angola ,#NA ,#TZ ,#ET ,#KE,#SA, #IR, #PK, #AF, #CF ,#SS ,#ZM ,#ZA ,#BW, #MZ,#SY ,#IQ").forEach(item => {
+document.querySelectorAll("#MA, #EH, #MR ,#SN, #GN ,#SL, #LR #CI, #ML ,#BF, #GH, #TG, #BJ, #DZ, #TN, #LY ,#NE, #NG ,#EG ,#JO, #SY, #IQ, #IR, #AF ,#PK ").forEach(item => {
     item.addEventListener('click',function(){
         AfModal.style.display = "block";
     });   

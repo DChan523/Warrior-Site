@@ -65,20 +65,21 @@ img, iframe{
     color: white;
 }
 svg path{
-    fill:rgb(109, 13, 13);
+    fill:#7a0e07;
     stroke: #eee;
     stroke-width: 0.25;
 }
-.Canada,.United,#BR,.China,.Australia,#UA,.France,#ES,#PT, #DE, #PL, #AT, .Italy, 
-#CZ, #RO, .Greece,#DZ, #LY ,#EG, #SD, #TD ,#NE ,#CD, .Angola, #NA, #TZ, #ET, #KE,#SA, #IR, #PK, #AF,#IN,.Indonesia,.Norway ,#SE, #FI,#SY, #IQ,#GL,
-#PE, #CO, #BO, .Chile, #PY, .Argentina ,#UY,.Japan, #MN, #TH
+.United ,.Canada, #MX, #GT ,#BZ, #HN, #SV ,#NI, #CR ,#CU ,#JM ,#HT, #DO, .Puerto,#PA ,#CO ,#EC, #VE, #GY, #SR, #GF, #BR, #PE ,#BO, .Chile, #PY, .Argentina, #UY ,.Falkland,
+#GL, #IS, .Norway, #SE ,#IE, .Kingdom, #FI,.New ,.Australia, .Papua,#IN ,#TM, #UZ ,#KZ, #KG ,#TJ, #PK ,#IN, .China, #NP, #BT ,#LK, #BD ,#MM ,#TH ,.Malaysia, .Indonesia, .Philippines, #VN ,#TW, .Japan, #MN, .Azerbaijan,
+#PT, #ES ,.France, #BE ,#NL ,#DE, .Denmark ,#CH, .Italy,#SI, #AT ,#CZ ,#PL,#LT, #LV ,#EE, #BY, #UA, #MD, #RO, #HU, #AT,#MA, #EH, #MR ,#SN, #GN ,#SL, #LR, #CI, #ML ,#BF, #GH, #TG, #BJ, #DZ, #TN, #LY ,#NE, #NG ,#EG ,#JO, #SY, #IQ, #IR, #AF ,#PK
 {
     fill:#004f2a;
     stroke: #eee;
     stroke-width: 0.25;
 }
-.Canada:hover,.United:hover,#BR:hover,.China:hover,.Australia:hover,#UA:hover,.France:hover,#ES:hover,#PT:hover, #DE:hover, #PL:hover, #AT:hover, .Italy:hover, 
-#CZ:hover, #RO:hover, .Greece:hover,#DZ:hover, #LY:hover,#EG:hover, #SD:hover, #TD:hover ,#NE:hover {
+.United:hover ,.Canada:hover , #MX:hover , #GT:hover  ,#BZ:hover , #HN:hover , #SV:hover  ,#NI:hover , #CR:hover  ,#CU:hover  ,#JM:hover  ,#HT:hover , #DO:hover , .Puerto:hover ,#PA:hover ,#CO:hover  ,#EC:hover , #VE:hover , #GY:hover , #SR:hover , #GF:hover , #BR:hover , #PE:hover  ,#BO:hover , .Chile:hover , #PY:hover , .Argentina:hover , #UY:hover  ,.Falkland:hover ,
+#GL:hover , #IS:hover , .Norway:hover , #SE:hover  ,#IE:hover , .Kingdom:hover , #FI:hover ,.New:hover  ,.Australia:hover , .Papua:hover ,#IN:hover  ,#TM:hover , #UZ:hover  ,#KZ:hover , #KG:hover  ,#TJ:hover , #PK:hover  ,#IN:hover , .China:hover , #NP:hover , #BT:hover  ,#LK:hover , #BD:hover  ,#MM:hover  ,#TH:hover  ,.Malaysia:hover , .Indonesia:hover , .Philippines:hover , #VN:hover ,#TW:hover , .Japan:hover , #MN:hover , .Azerbaijan:hover ,
+#PT:hover , #ES:hover  ,.France:hover , #BE:hover  ,#NL:hover  ,#DE:hover , .Denmark:hover  ,#CH:hover , .Italy:hover ,#SI:hover , #AT:hover  ,#CZ:hover  ,#PL:hover ,#LT:hover , #LV:hover  ,#EE:hover , #BY:hover , #UA:hover , #MD:hover , #RO:hover , #HU:hover , #AT:hover ,#MA:hover , #EH:hover , #MR:hover  ,#SN:hover , #GN:hover  ,#SL:hover , #LR:hover, #CI:hover , #ML:hover  ,#BF:hover , #GH:hover , #TG:hover , #BJ:hover , #DZ:hover , #TN:hover , #LY:hover  ,#NE:hover , #NG:hover  ,#EG:hover  ,#JO:hover , #SY:hover , #IQ:hover , #IR:hover , #AF:hover  ,#PK:hover  {
     fill: #07b966;
     transition: 0.6s;
 }
